@@ -37,3 +37,15 @@ function AlteraRele2(){
     }
 }
 
+ function AlteraRele4(){
+    var estado_4 = document.getElementById("estado_4").innerHTML;
+    if(estado_4 === "0"){
+        document.getElementById("estado_4").innerHTML="1";
+        document.getElementById("rele_4").innerHTML="<div class='exasut_ligado'></div>";
+		document.getElementById("botao_4").innerHTML="<a href='/?4_desligar' class='botao_4'>Desligar</a>";
+    } else {
+        document.getElementById("estado_4").innerHTML="0";
+        document.getElementById("rele_4").innerHTML="<div class='exasut_desligado'></div>";
+        document.getElementById("botao_4").innerHTML="<a href='/?4_ligar' class='botao_4'>Desligado</a>";
+    }
+}
