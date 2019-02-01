@@ -64,7 +64,7 @@ div.VENT_desligado {
     width: 300px;
     height: 206px;
     border: none;
-	background: url(VENT-OFF.png) no-repeat left top;
+	/*background: url(VENT-OFF.png) no-repeat left top;
 }
 
  div.DESLIG_ligado {
@@ -74,7 +74,7 @@ div.VENT_desligado {
     width: 300px;
     height: 206px;
     border: none;
-    /*background: url(lampada_ligada.png) no-repeat left top;*/
+    background: url(VENT-OFF.png) no-repeat left top;
 }
 
 div.DESLIG_desligado {
@@ -84,17 +84,17 @@ div.DESLIG_desligado {
     width: 300px;
     height: 206px;
     border: none;
-	/*background: url(lampada_desligada.png) no-repeat left top;*/
+	/*background: url(VENT-OFF.png) no-repeat left top;*/
 }
 
 div.EXAUST_ligado {
     position: absolute;
     right: -110px;
-    top: 705px;
+    top: 505px;
     width: 300px;
     height: 206px;
     border: none;
-	/*background: url(VENT-EXAUST.gif) no-repeat left top;*/
+	background: url(VENT-EXAUST.gif) no-repeat left top;
 }
 
 div.EXAUST_desligado {
@@ -104,7 +104,7 @@ div.EXAUST_desligado {
     width: 300px;
     height: 206px;
     border: none;
-	/*background: url(lampada_desligada.png) no-repeat left top;*/
+	/*background: url(VENT-OFF.png) no-repeat left top;*/
 } 
 
 
