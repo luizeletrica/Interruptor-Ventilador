@@ -47,7 +47,7 @@ div.rele1_desligado {
 	background: url(lampada_desligada.png) no-repeat left top;
 }
 
-div.VENT_ligado {
+div.rele2_ligado {
     position: absolute;
     right: -110px;
     top: 505px;
@@ -57,7 +57,7 @@ div.VENT_ligado {
     background: url(VENT-ON.gif) no-repeat left top;
 }
 
-div.VENT_desligado {
+div.rele2_desligado {
     position: absolute;
     right: -110px;
     top: 505px;
