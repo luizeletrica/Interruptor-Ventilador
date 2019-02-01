@@ -16,7 +16,7 @@ body {
     padding-top: 40px;
     position: relative;
     width: 530px;
-    height: 650px;
+    height: 750px;
 	margin-right: auto;
 	margin-top: 0;
 	margin-left: auto;
@@ -26,7 +26,7 @@ body {
         font-family: arial;
 }
 
-div.lamp_ligada {
+div.rele1_ligado {
     position: absolute;
     right: -110px;
     top: 220px;
@@ -37,7 +37,7 @@ div.lamp_ligada {
     background: url(lampada_ligada.png) no-repeat left top;
 }
 
-div.lamp_desligada {
+div.rele1_desligado {
     position: absolute;
     right: -110px;
     top: 220px;
@@ -47,45 +47,76 @@ div.lamp_desligada {
 	background: url(lampada_desligada.png) no-repeat left top;
 }
 
-div.vent_ligado {
+div.VENT_ligado {
     position: absolute;
     right: -110px;
-    top: 387px;
+    top: 505px;
     width: 300px;
     height: 206px;
     border: none;
-   /* background: url(lampada_ligada.png) no-repeat left top;*/
+    background: url(VENT-ON.gif) no-repeat left top;
 }
 
-div.vent_desligado {
+div.rele2_desligado {
     position: absolute;
     right: -110px;
-    top: 470px;
+    top: 505px;
     width: 300px;
     height: 206px;
     border: none;
-	background: url(ventilador.jpg) no-repeat left top;
+	background: url(VENT-OFF.png) no-repeat left top;
 }
 
- div.exasut_ligado {
+div.EXAUST_ligado {
+    position: absolute;
+    right: -110px;
+    top: 505px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(VENT-EXAUST.gif) no-repeat left top;
+}
+
+/* div.rele3_ligado {
     position: absolute;
     right: -110px;
     top: 554px;
     width: 300px;
     height: 206px;
     border: none;
-    /*background: url(lampada_ligada.png) no-repeat left top;*/
+    background: url(lampada_ligada.png) no-repeat left top;
 }
 
- div.exasut_desligado {
+div.rele3_desligado {
     position: absolute;
     right: -110px;
-    top: 470px;
+    top: 554px;
     width: 300px;
     height: 206px;
     border: none;
-	background: url(ventilador.jpg) no-repeat left top;
-}  
+	background: url(lampada_desligada.png) no-repeat left top;
+} */
+
+/* div.rele4_ligado {
+    position: absolute;
+    right: -110px;
+    top: 720px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(lampada_ligada.png) no-repeat left top;
+}
+
+div.rele4_desligado {
+    position: absolute;
+    right: -110px;
+    top: 720px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(lampada_desligada.png) no-repeat left top;
+}
+ */
 
 #div1 {
 	position: absolute;
@@ -94,18 +125,19 @@ div.vent_desligado {
     border-radius: 25px;
     border: 2px solid #000000;
     width: 350px;
-    height: 150px; 
+    height: 140px; 
 }
 
 #div2 {
 	position: absolute;
-	right: 85px;
+	right: 40px;
 	top: 355px;
     border-radius: 25px;
     border: 2px solid #000000;
-    width: 350px;
-    height: 310px; 
+    width: 450px;
+    height: 350px; 
 }
+
 
 #botao{
     position: absolute;
@@ -146,7 +178,7 @@ div.vent_desligado {
 
 #botao_2{
     position: absolute;
-    right: 230px;
+    right: 275px;
     top: 417px;
 	 width: 200px;
     height: 256px;
@@ -183,8 +215,8 @@ div.vent_desligado {
 
 #botao_3{
     position: absolute;
-    right: 230px;
-    top: 584px;
+    right: 275px;
+    top: 517px;
 	 width: 200px;
     height: 256px;
 }
@@ -194,7 +226,7 @@ div.vent_desligado {
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 0px 0px 0px #ffffff;
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
-	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	background:-moz-linear-gradient( center top, #0cff31 5%, #077a18 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
 	background-color:#ededed;
 	-moz-border-radius:6px;
@@ -221,8 +253,8 @@ div.vent_desligado {
 
 #botao_4{
     position: absolute;
-    right: 230px;
-    top: 500px;
+    right: 275px;
+    top: 617px;
 	 width: 200px;
     height: 256px;
 }
@@ -231,9 +263,9 @@ div.vent_desligado {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	box-shadow:inset 0px 0px 0px 0px #ffffff;
-	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #fe0026), color-stop(1, #8f0c1f) );
-	background:-moz-linear-gradient( center top, #00fe36 5%, #118229 100% );
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe0026', endColorstr='#8f0c1f');
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
 	background-color:#ededed;
 	-moz-border-radius:6px;
 	-webkit-border-radius:6px;
