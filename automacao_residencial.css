@@ -47,7 +47,7 @@ div.rele1_desligado {
 	background: url(lampada_desligada.png) no-repeat left top;
 }
 
-div.rele2_ligado {
+div.VENT_ligado {
     position: absolute;
     right: -110px;
     top: 505px;
@@ -57,7 +57,7 @@ div.rele2_ligado {
     background: url(VENT-ON.gif) no-repeat left top;
 }
 
-div.rele2_desligado {
+div.VENT_desligado {
     position: absolute;
     right: -110px;
     top: 505px;
@@ -67,56 +67,49 @@ div.rele2_desligado {
 	background: url(VENT-OFF.png) no-repeat left top;
 }
 
+ div.DESLIG_ligado {
+    position: absolute;
+    right: -110px;
+    top: 605px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    /*background: url(lampada_ligada.png) no-repeat left top;*/
+}
+
+div.DESLIG_desligado {
+    position: absolute;
+    right: -110px;
+    top: 605px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	/*background: url(lampada_desligada.png) no-repeat left top;*/
+}
+
 div.EXAUST_ligado {
     position: absolute;
     right: -110px;
-    top: 505px;
+    top: 705px;
     width: 300px;
     height: 206px;
     border: none;
-	background: url(VENT-EXAUST.gif) no-repeat left top;
+	/*background: url(VENT-EXAUST.gif) no-repeat left top;*/
 }
 
-/* div.rele3_ligado {
+div.EXAUST_desligado {
     position: absolute;
     right: -110px;
-    top: 554px;
+    top: 705px;
     width: 300px;
     height: 206px;
     border: none;
-    background: url(lampada_ligada.png) no-repeat left top;
-}
+	/*background: url(lampada_desligada.png) no-repeat left top;*/
+} 
 
-div.rele3_desligado {
-    position: absolute;
-    right: -110px;
-    top: 554px;
-    width: 300px;
-    height: 206px;
-    border: none;
-	background: url(lampada_desligada.png) no-repeat left top;
-} */
 
-/* div.rele4_ligado {
-    position: absolute;
-    right: -110px;
-    top: 720px;
-    width: 300px;
-    height: 206px;
-    border: none;
-    background: url(lampada_ligada.png) no-repeat left top;
-}
 
-div.rele4_desligado {
-    position: absolute;
-    right: -110px;
-    top: 720px;
-    width: 300px;
-    height: 206px;
-    border: none;
-	background: url(lampada_desligada.png) no-repeat left top;
-}
- */
+
 
 #div1 {
 	position: absolute;
