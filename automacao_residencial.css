@@ -70,7 +70,7 @@ div.VENT_desligado {
  div.DESLIG_ligado {
     position: absolute;
     right: -110px;
-    top: 605px;
+    top: 505px;
     width: 300px;
     height: 206px;
     border: none;
@@ -80,7 +80,7 @@ div.VENT_desligado {
 div.DESLIG_desligado {
     position: absolute;
     right: -110px;
-    top: 605px;
+    top: 505px;
     width: 300px;
     height: 206px;
     border: none;
@@ -100,7 +100,7 @@ div.EXAUST_ligado {
 div.EXAUST_desligado {
     position: absolute;
     right: -110px;
-    top: 705px;
+    top: 505px;
     width: 300px;
     height: 206px;
     border: none;
