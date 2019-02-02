@@ -35,6 +35,7 @@ function AlteraRele2(){
  
 
  function AlteraRele4(){
+	 var estado_3 = document.getElementById("estado_3").innerHTML;
     var estado_4 = document.getElementById("estado_4").innerHTML;
     if(estado_4 === "0"){
 		document.getElementById("estado_3").innerHTML="1";
