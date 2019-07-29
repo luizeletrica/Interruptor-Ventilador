@@ -43,27 +43,3 @@ function AlteraRele2(){
         document.getElementById("botao_3").innerHTML="<a href='/?3_ligar' class='botao_3'>Desligado</a>";
     }
 }
- 
-
- function AlteraRele4(){
-	 var estado_3 = document.getElementById("estado_3").innerHTML;
-    var estado_4 = document.getElementById("estado_4").innerHTML;
-    if(estado_4 === "0"){
-		document.getElementById("estado_3").innerHTML="1";
-        document.getElementById("DESLIG").innerHTML="<div class='DESLIG_ligado'></div>";
-		document.getElementById("botao_3").innerHTML="<a href='/?3_desligar' class='botao_3'>Desligar</a>";
-		
-        document.getElementById("estado_4").innerHTML="1";
-        document.getElementById("EXAUST").innerHTML="<div class='EXAUST_ligado'></div>";
-		document.getElementById("botao_4").innerHTML="<a href='/?4_desligar' class='botao_4'>Desligar</a>";
-			
-    } else {
-        document.getElementById("estado_4").innerHTML="0";
-        document.getElementById("EXAUST").innerHTML="<div class='EXAUST_desligado'></div>";
-        document.getElementById("botao_4").innerHTML="<a href='/?4_ligar' class='botao_4'>Exaustor</a>";
-		
-		document.getElementById("estado_3").innerHTML="0";
-        document.getElementById("DESLIG").innerHTML="<div class='DESLIG_desligado'></div>";
-        document.getElementById("botao_3").innerHTML="<a href='/?3_ligar' class='botao_3'>Desligado</a>";
-    }
-}
