@@ -14,18 +14,11 @@ function AlteraRele1(){
 
 function AlteraRele2(){
     var estado_2 = document.getElementById("estado_2").innerHTML;
-	if(estado_2 === "0"){
-        document.getElementById("estado_2").innerHTML="1";
-        document.getElementById("VENT").innerHTML="<div class='VENT_ligado'></div>";
-		document.getElementById("botao_2").innerHTML="Ligado";
-		document.getElementById("estado_3").innerHTML="1";
-        document.getElementById("DESLIG").innerHTML="<div class='DESLIG_ligado'></div>";
-		document.getElementById("botao_3").innerHTML="<a href='/?2_desligar' class='botao_2'>Desligar</a>";
-    } else {
+	if(estado_2 === "1"){
         document.getElementById("estado_2").innerHTML="0";
         document.getElementById("VENT").innerHTML="<div class='VENT_desligado'></div>";
         document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>Ventilador</a>";
-    }
+    } 
 }
  
  function AlteraRele4(){
