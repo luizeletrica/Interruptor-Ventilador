@@ -21,7 +21,7 @@ function AlteraRele1(){
 		
 		document.getElementById("estado_3").innerHTML="1";
         document.getElementById("DESLIG").innerHTML="<div class='DESLIG_ligado'></div>";
-		document.getElementById("botao_3").innerHTML="<a href='' class='botao_3'>DESLIGAR</a>";
+		document.getElementById("botao_3").innerHTML="<a href='/?3_ligar' class='botao_3'>DESLIGAR</a>";
     } else {
         document.getElementById("estado_2").innerHTML="0";
         document.getElementById("VENT").innerHTML="<div class='VENT_desligado'></div>";
@@ -63,4 +63,3 @@ function AlteraRele1(){
         document.getElementById("botao_4").innerHTML="<a href='/?4_ligar' class='botao_4'>Exaustor</a>";
     }
 }
- 
