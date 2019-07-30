@@ -78,4 +78,3 @@ function AlteraRele1(){
         document.getElementById("botao_4").innerHTML="<a href='/?4_ligar' class='botao_4'>Exaustor</a>";
     }
 }
-
