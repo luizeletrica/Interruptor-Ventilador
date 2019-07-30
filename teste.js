@@ -40,7 +40,6 @@ function AlteraRele2(){
 		
         
 		
-		
     } else {
      	document.getElementById("estado_3").innerHTML="0";
         document.getElementById("DESLIG").innerHTML="<div class='DESLIG_desligado'></div>";
