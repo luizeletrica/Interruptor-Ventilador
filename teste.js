@@ -10,7 +10,6 @@ function AlteraRele1(){
         document.getElementById("botao").innerHTML="<a href='/?ligar' class='botao'>Liga</a>";
     }
 }
-
  
  
  function AlteraRele3(){
