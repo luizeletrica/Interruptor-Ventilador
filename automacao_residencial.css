@@ -67,25 +67,7 @@ div.VENT_desligado {
 	/*background: url(VENT-OFF.png) no-repeat left top;*/
 }
 
- div.DESLIG_ligado {
-    position: absolute;
-    right: -110px;
-    top: 505px;
-    width: 300px;
-    height: 206px;
-    border: none;
-    /*background: url(VENT-OFF.png) no-repeat left top;*/
-}
 
-div.DESLIG_desligado {
-    position: absolute;
-    right: -110px;
-    top: 505px;
-    width: 300px;
-    height: 206px;
-    border: none;
-	background: url(VENT-OFF.png) no-repeat left top;
-}
 
 div.EXAUST_ligado {
     position: absolute;
@@ -107,7 +89,25 @@ div.EXAUST_desligado {
 	/*background: url(VENT-OFF.png) no-repeat left top;*/
 } 
 
+ div.DESLIG_ligado {
+    position: absolute;
+    right: -110px;
+    top: 505px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    /*background: url(VENT-OFF.png) no-repeat left top;*/
+}
 
+div.DESLIG_desligado {
+    position: absolute;
+    right: -110px;
+    top: 505px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(VENT-OFF.png) no-repeat left top;
+}
 
 
 
