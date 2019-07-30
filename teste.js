@@ -52,11 +52,11 @@ function AlteraRele2(){
     if(estado_4 === "0"){
         document.getElementById("estado_4").innerHTML="1";
         document.getElementById("EXAUST").innerHTML="<div class='EXAUST_ligado'></div>";
-		document.getElementById("botao_4").innerHTML="<a href='' class='botao_4'>Ligado</a>";
+	document.getElementById("botao_4").innerHTML="<a href='' class='botao_4'>Ligado</a>";
 		
-		document.getElementById("estado_3").innerHTML="1";
+	document.getElementById("estado_3").innerHTML="1";
         document.getElementById("DESLIG").innerHTML="<div class='DESLIG_ligado'></div>";
-		document.getElementById("botao_3").innerHTML="<a href='' class='botao_3'>DESLIGAR</a>";
+	document.getElementById("botao_3").innerHTML="<a href='' class='botao_3'>DESLIGAR</a>";
     } else {
         document.getElementById("estado_4").innerHTML="0";
         document.getElementById("EXAUST").innerHTML="<div class='EXAUST_desligado'></div>";
