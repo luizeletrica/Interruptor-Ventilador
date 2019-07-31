@@ -15,7 +15,7 @@ function AlteraRele1(){
     var estado_2 = document.getElementById("estado_2").innerHTML;
 	var estado_3 = document.getElementById("estado_3").innerHTML;
 	
-	var estado_4 = document.getElementById("estado_4").innerHTML;
+	
 	
     if(estado_2 === "0"){
         document.getElementById("estado_2").innerHTML="1";
@@ -56,6 +56,8 @@ function AlteraRele1(){
         document.getElementById("DESLIG").innerHTML="<div class='DESLIG_desligado'></div>";
         document.getElementById("botao_3").innerHTML="<a href='' class='botao_3'>DESLIGADO</a>";
 		
+		
+		
 				
     }
 }
@@ -64,7 +66,7 @@ function AlteraRele1(){
     var estado_4 = document.getElementById("estado_4").innerHTML;
 	var estado_3 = document.getElementById("estado_3").innerHTML;
 	
-	var estado_4 = document.getElementById("estado_4").innerHTML;
+	
 
     if(estado_4 === "0"){
         document.getElementById("estado_4").innerHTML="1";
@@ -77,7 +79,7 @@ function AlteraRele1(){
 		
 		document.getElementById("estado_2").innerHTML="1";
         document.getElementById("VENT").innerHTML="<div class='VENT_ligado'></div>";
-		document.getElementById("botao_2").innerHTML="<a href='/?4_desligar' class='botao_2'>DESLIGAR</a>";
+		document.getElementById("botao_2").innerHTML="<a href='?4_desligar' class='botao_2'>DESLIGAR</a>";
 		
 	
     } else {
