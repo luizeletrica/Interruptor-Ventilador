@@ -50,7 +50,6 @@ function AlteraRele1(){
         document.getElementById("botao_3").innerHTML="<a href='' class='botao_3'>DESLIGADO</a>";
 		
 		
-		
 				
     }
 }
