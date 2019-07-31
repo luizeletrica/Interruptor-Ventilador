@@ -15,8 +15,7 @@ function AlteraRele1(){
     var estado_2 = document.getElementById("estado_2").innerHTML;
 	var estado_3 = document.getElementById("estado_3").innerHTML;
 	
-	
-	
+		
     if(estado_2 === "0"){
         document.getElementById("estado_2").innerHTML="1";
         document.getElementById("VENT").innerHTML="<div class='VENT_ligado'></div>";
