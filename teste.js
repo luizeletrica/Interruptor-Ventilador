@@ -56,10 +56,7 @@ function AlteraRele1(){
         document.getElementById("DESLIG").innerHTML="<div class='DESLIG_desligado'></div>";
         document.getElementById("botao_3").innerHTML="<a href='' class='botao_3'>DESLIGADO</a>";
 		
-		
-		
-				
-    }
+	 }
 }
 
  function AlteraRele4(){
