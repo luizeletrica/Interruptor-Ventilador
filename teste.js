@@ -79,7 +79,7 @@ function AlteraRele1(){
 		
 		document.getElementById("estado_2").innerHTML="1";
         document.getElementById("VENT").innerHTML="<div class='VENT_ligado'></div>";
-		document.getElementById("botao_2").innerHTML="<a href='?4_desligar' class='botao_2'>DESLIGAR</a>";
+		document.getElementById("botao_2").innerHTML="<a href='/?4_desligar' class='botao_2'>DESLIGAR</a>";
 		
 	
     } else {
