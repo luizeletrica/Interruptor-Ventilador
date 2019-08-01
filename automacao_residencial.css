@@ -1,3 +1,279 @@
+/* 
+    CSS Projeto Automacao Residencial
+    TREE BLUE
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    background: url(backgroud-blue.jpg);
+	color: rgba(0,0,0,1);
+	}
+	
+	div#interface{
+		
+	position: absolute;
+	right: 400px;
+	top: 50px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+	background-color: #ffffff;	
+    width: 500px;
+    height: auto; 
+	}
+	
+		
+	
+	
+
+
+#wrapper {
+    padding-top: 40px;
+    position: relative;
+    width: 530px;
+    height: 750px;
+	margin-right: auto;
+	margin-top: 0;
+	margin-left: auto;
+        font-size: 30px;
+        color: black;
+        text-align: center;
+        font-family: arial;
+}
+
+div.rele1_ligado {
+    position: absolute;
+    right: -110px;
+    top: 220px;
+    width: 300px;
+    height: 206px;
+    border: none;
+		margin:auto;
+    background: url(lampada_ligada.png) no-repeat left top;
+}
+
+div.rele1_desligado {
+    position: absolute;
+    right: -110px;
+    top: 220px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(lampada_desligada.png) no-repeat left top;
+}
+
+div.VENT_ligado {
+    position: absolute;
+    right: -110px;
+    top: 505px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(VENT-ON.gif) no-repeat left top;
+}
+
+div.VENT_desligado {
+    position: absolute;
+    right: -110px;
+    top: 505px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	/*background: url(VENT-OFF.png) no-repeat left top;*/
+}
+
+ div.DESLIG_ligado {
+    position: absolute;
+    right: -110px;
+    top: 505px;
+    width: 300px;
+    height: 206px;
+    border: none;
+    background: url(VENT-OFF.png) no-repeat left top;
+}
+
+div.DESLIG_desligado {
+    position: absolute;
+    right: -110px;
+    top: 505px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	/*background: url(VENT-OFF.png) no-repeat left top;*/
+}
+
+div.EXAUST_ligado {
+    position: absolute;
+    right: -110px;
+    top: 505px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	background: url(VENT-EXAUST.gif) no-repeat left top;
+}
+
+div.EXAUST_desligado {
+    position: absolute;
+    right: -110px;
+    top: 505px;
+    width: 300px;
+    height: 206px;
+    border: none;
+	/*background: url(VENT-OFF.png) no-repeat left top;*/
+} 
+
+
+
+
+
+#div1 {
+	position: absolute;
+	right: 85px;
+	top: 195px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 350px;
+    height: 140px; 
+}
+
+#div2 {
+	position: absolute;
+	right: 40px;
+	top: 355px;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    width: 450px;
+    height: 350px; 
+}
+
+	
+
+#botao{
+    position: absolute;
+    right: 230px;
+    top: 250px;
+	 width: 200px;
+    height: 256px;
+}
+
+.botao {
+	
+	/*
+	00c306 green
+	26A8FF blue
+	e30000 red
+	*/
+	
+	border-radius:6px;
+	border:1px solid #000000;
+	display:inline-block;
+	
+	
+	background-color:#26A8FF;
+			
+	
+	color:#ffffff;
+	font-family:arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 100px;
+        text-align: center;
+		
+}
+
+.botao:active {
+	position:relative;
+	top:1px;
+}
+
+#botao_2{
+    position: absolute;
+    right: 275px;
+    top: 417px;
+	 width: 200px;
+    height: 256px;
+}
+
+.botao_2 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #16ADFF 5%, #26A8FF 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 150px;
+        text-align: center;
+}
+
+.botao_2:active {
+	position:relative;
+	top:1px;
+}
+
+#botao_3{
+    position: absolute;
+    right: 275px;
+    top: 517px;
+	 width: 200px;
+    height: 256px;
+}
+
+.botao_3 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.1, #16ADFF), color-stop(1, #26A8FF) );
+	background:-moz-linear-gradient( center top, #0cff31 5%, #077a18 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#16ADFF', endColorstr='#26A8FF');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:28px;
+	font-weight:bold;
+	padding:10px 40px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #ffffff;
+        width: 150px;
+        text-align: center;
+}
+
+.botao_3:active {
+	position:relative;
+	top:1px;
+}
+
+
+#botao_4{
+    position: absolute;
+    right: 275px;
+    top: 617px;
+	 width: 200px;
+    height: 256px;
+}
+
 .botao_4 {
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
