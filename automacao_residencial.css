@@ -8,34 +8,24 @@ root {
 }
 
 body {
-    background: url(backgroud-blue.jpg);
-	color: rgba(0,0,0,1);
-	}
-	
-	div#interface{
-	text-align: center;
+	background: url(backgroud-blue.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+
+div#interface{
+		
 	position: absolute;
-	
-	margin: 0;
-	
-	top: 75%;
-	
-	left: 50%;
-    margin-right: -50%;	
-	transform: translate(-50%, -50%);
-	
-	/*right: 30px;
-	top: 50px;*/
+	right: 50px;
+	top: 50px;
     border-radius: 25px;
     border: 2px solid #000000;
 	background-color: #ffffff;	
     width: 500px;
     height: auto; 
 	}
-	
-		
-	
-	
+
 
 
 #wrapper {
@@ -100,7 +90,7 @@ div.VENT_desligado {
     width: 300px;
     height: 206px;
     border: none;
-    background: url(VENT-OFF.png) no-repeat left top;
+    /*background: url(VENT-OFF.png) no-repeat left top;*/
 }
 
 div.DESLIG_desligado {
@@ -110,7 +100,7 @@ div.DESLIG_desligado {
     width: 300px;
     height: 206px;
     border: none;
-	/*background: url(VENT-OFF.png) no-repeat left top;*/
+	background: url(VENT-OFF.png) no-repeat left top;
 }
 
 div.EXAUST_ligado {
@@ -157,7 +147,6 @@ div.EXAUST_desligado {
     height: 350px; 
 }
 
-	
 
 #botao{
     position: absolute;
@@ -168,7 +157,6 @@ div.EXAUST_desligado {
 }
 
 .botao {
-	
 	/*
 	00c306 green
 	26A8FF blue
@@ -192,7 +180,6 @@ div.EXAUST_desligado {
 	text-shadow:0px 0px 0px #ffffff;
         width: 100px;
         text-align: center;
-		
 }
 
 .botao:active {
@@ -311,6 +298,7 @@ div.EXAUST_desligado {
 	position:relative;
 	top:1px;
 }
+
 
 footer#rodape {
 	clear: both;
