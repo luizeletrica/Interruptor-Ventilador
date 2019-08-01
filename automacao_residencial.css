@@ -17,8 +17,15 @@ body {
 div#interface{
 		
 	position: absolute;
-	right: 50px;
-	top: 50px;
+	
+	margin: 0;
+	
+	top: 75%;
+	
+	left: 50%;
+    margin-right: -50%;	
+	transform: translate(-50%, -50%);
+	
     border-radius: 25px;
     border: 2px solid #000000;
 	background-color: #ffffff;	
