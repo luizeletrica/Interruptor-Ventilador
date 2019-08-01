@@ -86,7 +86,7 @@ function AlteraRele1(){
 		
 		if(estado_3 === "1"){
 		document.getElementById("estado_4").innerHTML="0";
-       /**/ document.getElementById("VENT").innerHTML="<div class='VENT_ligado'></div>";
+       /**/ document.getElementById("EXAUST").innerHTML="<div class='EXAUST_ligado'></div>";
 		document.getElementById("botao_4").innerHTML="<a href='/?2_desligar' class='botao_4'>DESLIGAR</a>";
 		
 		}else{
