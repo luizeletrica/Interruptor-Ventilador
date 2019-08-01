@@ -8,6 +8,7 @@ root {
 }
 
 body {
+	background: url(backgroud-blue.jpg);
     margin: 0;
     padding: 0;
 }
@@ -16,7 +17,7 @@ body {
 div#interface{
 		
 	position: absolute;
-	right: 30px;
+	right: 50px;
 	top: 50px;
     border-radius: 25px;
     border: 2px solid #000000;
