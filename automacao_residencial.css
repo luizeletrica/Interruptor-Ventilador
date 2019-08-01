@@ -5,12 +5,13 @@
 
 root { 
     display: block;
-	text-align: center;
+	
 }
 
 body {
     background: url(backgroud-blue.jpg);
 	color: rgba(0,0,0,1);
+	text-align: center;
 	}
 	
 	div#interface{
