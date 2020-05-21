@@ -59,3 +59,4 @@ function AlteraRele2(){
         document.getElementById("botao_3").innerHTML="<a href='/?3_ligar' class='botao_3'>Desligado</a>";
     }
 }
+
