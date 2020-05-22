@@ -27,7 +27,9 @@ function AlteraRele2(){
        
 document.getElementById("estado_2").innerHTML="0";
         document.getElementById("VENT").innerHTML="<div class='VENT_desligado'></div>";
-        document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>Ventilador</a>";}
+        document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>Ventilador</a>";
+    }
+}
  
  function AlteraRele4(){
     var estado_4 = document.getElementById("estado_4").innerHTML;
