@@ -14,12 +14,8 @@ function AlteraRele1(){
 
 function AlteraRele2(){
     var estado_2 = document.getElementById("estado_2").innerHTML;
-	if(estado_2 === "1"){
-        document.getElementById("estado_2").innerHTML="0";
-        document.getElementById("VENT").innerHTML="<div class='VENT_desligado'></div>";
-        document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>Ventilador</a>";
-    } else {
-       document.getElementById("estado_2").innerHTML="1";
+	if(estado_2 === "0"){
+        document.getElementById("estado_2").innerHTML="1";
         document.getElementById("VENT").innerHTML="<div class='VENT_ligado'></div>";
 		document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>Ligado</a>";
 		document.getElementById("estado_3").innerHTML="1";
@@ -27,7 +23,11 @@ function AlteraRele2(){
 		document.getElementById("botao_3").innerHTML="<a href='/?2_desligar' class='botao_3'>Desligar</a>";
 	    document.getElementById("botao_4").innerHTML="<a href='/?2_desligar' class='botao_4'>Desligar</a>";
     }
-}
+    } else {
+       
+document.getElementById("estado_2").innerHTML="0";
+        document.getElementById("VENT").innerHTML="<div class='VENT_desligado'></div>";
+        document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>Ventilador</a>";}
  
  function AlteraRele4(){
     var estado_4 = document.getElementById("estado_4").innerHTML;
