@@ -61,3 +61,4 @@ document.getElementById("estado_2").innerHTML="0";
     }
 }
 
+
