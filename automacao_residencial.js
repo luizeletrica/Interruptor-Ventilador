@@ -22,7 +22,7 @@ function AlteraRele2(){
         document.getElementById("DESLIG").innerHTML="<div class='DESLIG_ligado'></div>";
 		document.getElementById("botao_3").innerHTML="<a href='/?2_desligar' class='botao_3'>Desligar</a>";
 	    document.getElementById("botao_4").innerHTML="<a href='/?2_desligar' class='botao_4'>Desligar</a>";
-    }
+    
     } else {
        
 document.getElementById("estado_2").innerHTML="0";
