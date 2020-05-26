@@ -1,4 +1,3 @@
-
 function AlteraRele1(){
     var estado = document.getElementById("estado").innerHTML;
     if(estado === "0"){
@@ -36,6 +35,7 @@ function AlteraRele1(){
         document.getElementById("VENT").innerHTML="<div class='VENT_desligado'></div>";
         document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>Ventilador</a>";
     }
+}
 }
  
  function AlteraRele3(){
