@@ -98,4 +98,3 @@ function AlteraRele1(){
 	}
     }
 }
-
