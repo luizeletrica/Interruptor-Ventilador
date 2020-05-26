@@ -106,3 +106,4 @@ function AlteraRele1(){
 	}
     }
 }
+
