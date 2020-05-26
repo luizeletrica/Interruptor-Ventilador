@@ -54,15 +54,14 @@ function AlteraRele1(){
 	
     if(estado_3 === "0"){
 		
-		document.getElementById("estado_3").innerHTML="1";
+	document.getElementById("estado_3").innerHTML="1";
         document.getElementById("DESLIG").innerHTML="<div class='DESLIG_ligado'></div>";
-		document.getElementById("botao_3").innerHTML="<a href='/?3_desligar' class='botao_3'>DESLIGAR</a>";
+	document.getElementById("botao_3").innerHTML="<a href='/?3_desligar' class='botao_3'>DESLIGAR</a>";
 		
 		
     } else {
      	
-		
-		document.getElementById("estado_3").innerHTML="0";
+	document.getElementById("estado_3").innerHTML="0";
         document.getElementById("DESLIG").innerHTML="<div class='DESLIG_desligado'></div>";
         document.getElementById("botao_3").innerHTML="<a href='' class='botao_3'>DESLIGADO</a>";
 		
