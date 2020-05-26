@@ -32,9 +32,19 @@ function AlteraRele1(){
 		document.getElementById("botao_4").innerHTML="<a href='/?2_desligar' class='botao_4'>DESLIGAR</a>";
 		
    } else {
+        
+		
+		if(estado_3 === "1"){
+		document.getElementById("estado_2").innerHTML="0";
+       /**/ document.getElementById("VENT").innerHTML="<div class='VENT_ligado'></div>";
+		document.getElementById("botao_2").innerHTML="<a href='/?4_desligar' class='botao_2'>DESLIGAR</a>";
+		
+		}else{
+		
         document.getElementById("estado_2").innerHTML="0";
         document.getElementById("VENT").innerHTML="<div class='VENT_desligado'></div>";
         document.getElementById("botao_2").innerHTML="<a href='/?2_ligar' class='botao_2'>Ventilador</a>";
+	
     }
 }
  
@@ -48,8 +58,10 @@ function AlteraRele1(){
 		document.getElementById("estado_3").innerHTML="1";
         document.getElementById("DESLIG").innerHTML="<div class='DESLIG_ligado'></div>";
 		document.getElementById("botao_3").innerHTML="<a href='/?3_desligar' class='botao_3'>DESLIGAR</a>";
-				
-    } else {     	
+		
+		
+    } else {
+     	
 		
 		document.getElementById("estado_3").innerHTML="0";
         document.getElementById("DESLIG").innerHTML="<div class='DESLIG_desligado'></div>";
