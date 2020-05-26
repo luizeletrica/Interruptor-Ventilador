@@ -99,3 +99,4 @@ function AlteraRele1(){
 	}
     }
 }
+
