@@ -20,7 +20,7 @@ function AlteraRele1(){
 	
     if(estado_2 === "0"){
         document.getElementById("estado_2").innerHTML="1";
-        document.getElementById("VENT").innerHTML="<div class='VENT_ligado'></div>";
+        document.getElementById("VENT").innerHTML="<div class='EXAUST_ligado'></div>";
 		document.getElementById("botao_2").innerHTML="<a href='' class='botao_2'>Ligado</a>";
 		
 		document.getElementById("estado_3").innerHTML="1";
